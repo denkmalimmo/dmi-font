@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'dmi';
-	src:url('fonts/dmi.eot?blrllx');
-	src:url('fonts/dmi.eot?#iefixblrllx') format('embedded-opentype'),
-		url('fonts/dmi.ttf?blrllx') format('truetype'),
-		url('fonts/dmi.woff?blrllx') format('woff'),
-		url('fonts/dmi.svg?blrllx#dmi') format('svg');
+	src:url('fonts/dmi.eot?g6dn3q');
+	src:url('fonts/dmi.eot?#iefixg6dn3q') format('embedded-opentype'),
+		url('fonts/dmi.ttf?g6dn3q') format('truetype'),
+		url('fonts/dmi.woff?g6dn3q') format('woff'),
+		url('fonts/dmi.svg?g6dn3q#dmi') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,12 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dmi-rendite3:before {
+	content: "\e247";
+}
+.icon-dmi-denkmal3:before {
+	content: "\e265";
+}
 .icon-dmi-rendite2:before {
 	content: "\e60e";
 }
@@ -56,9 +62,6 @@ i {
 .icon-dmi-neubau:before {
 	content: "\e607";
 }
-.icon-dmi-neubau2:before {
-	content: "\e608";
-}
 .icon-dmi-pflege:before {
 	content: "\e609";
 }
@@ -68,6 +71,9 @@ i {
 .icon-dmi-pflege3:before {
 	content: "\e60b";
 }
-.icon-dmi-pflege4:before {
-	content: "\e60c";
+.icon-dmi-quote-left:before {
+	content: "\f10d";
+}
+.icon-dmi-quote-right:before {
+	content: "\f10e";
 }
